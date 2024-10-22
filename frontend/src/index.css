@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+#hero{
+    background-image: url(./assets/bernd-dittrich-iu3rfmYLuzI-unsplash.jpg)
+}
+
 .active hr{
     @apply block;
 }

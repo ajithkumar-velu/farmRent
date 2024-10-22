@@ -52,6 +52,10 @@ const Navbar = () => {
                         <li className="cursor-pointer py-1" >Contact</li>
                         <hr className="outline-none hidden border-none h-0.5 bg-green-400 w-3/5 m-auto" />
                     </NavLink>
+                    <a href="https://farm-rent-admin.vercel.app/">
+                        <p className="border border-black px-3 py-1" >Admin</p>
+                        <hr className="outline-none hidden border-none h-0.5 bg-green-400 w-3/5 m-auto" />
+                    </a>
                 </ul>
                 {token1
                 ? 
