@@ -31,10 +31,10 @@ app.use('/api/provider', providerRouter)
 app.use('/api/order', orderRoute)
 
 app.get('/', (req, res)=>{
-<<<<<<< HEAD
-=======
+
+
     console.log("hi")
->>>>>>> 046755e9f54cf077c07c56559394e2fff5b1d5a2
+
     
     res.send("API is working")
 })
