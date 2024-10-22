@@ -77,7 +77,7 @@ const Navbar = () => {
                         <button onClick={() => navigate('/login')} className="bg-green-400 text-white px-8 py-2 rounded-full font-light hidden md:block" >LOGIN</button>
 
                     }
-                    <img onClick={() => setVisible(true)} className='w-5 cursor-pointer sm:hidden' src={image.menu_icon} alt="" />
+                    <img onClick={() => setVisible(true)} className='w-5 cursor-pointer md:hidden' src={image.menu_icon} alt="" />
                     {/* 
                 <div className="relative group md:hidden" >
 
