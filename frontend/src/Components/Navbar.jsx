@@ -7,7 +7,7 @@ const Navbar = () => {
     const { navigate, userType, setToken1, token1 } = useContext(AppContext)
 
     const [pos, setPos] = useState()
-    const [visible, setVisible] = useState(true)
+    const [visible, setVisible] = useState(false)
 
     const handleNavbarScroll = () => {
         if (window.scrollY >= 40) {
