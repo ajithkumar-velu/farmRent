@@ -31,8 +31,7 @@ app.use('/api/provider', providerRouter)
 app.use('/api/order', orderRoute)
 
 app.get('/', (req, res)=>{
-    const { trying } = req.body;
-    console.log(trying);
+
     
     res.send("This running..")
 })
