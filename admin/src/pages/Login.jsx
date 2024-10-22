@@ -10,8 +10,8 @@ const Login = () => {
     const { backendUrl, setToken2 } = useContext(AppContext)
 
 
-    const [email, setEmail] = useState("")
-    const [password, setpassword] = useState("")
+    const [email, setEmail] = useState("admin@gmail.com")
+    const [password, setpassword] = useState("apassword")
 
 
     const handleUserLogin = async (event) => {
