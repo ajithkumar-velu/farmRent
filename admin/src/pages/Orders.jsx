@@ -63,10 +63,10 @@ const Orders = () => {
   return (
     <div>
       <div className="flex gap-2 items-center mb-10" >
-        <p className=" sm:w-[100px] h-0.5 bg-black" ></p>
-        <p className=" font-semibold" >ALL ORDERS</p>
-        <p className="w-[60px]  h-0.5 bg-black" ></p>
-        <p></p>
+        <p className="w-[60px] sm:w-[100px] h-0.5 bg-black" ></p>
+        <p className="text-2xl sm:text-3xl font-semibold" >ALL ORDERS</p>
+        <p className="w-[60px] sm:w-[100px] h-0.5 bg-black" ></p>
+       
       </div>
       <div>
 
