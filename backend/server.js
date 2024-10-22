@@ -33,7 +33,7 @@ app.use('/api/order', orderRoute)
 app.get('/', (req, res)=>{
 
     
-    res.send("This running..")
+    res.send("API is working")
 })
 
 app.listen(port, ()=>{
