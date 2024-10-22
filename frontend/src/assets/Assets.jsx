@@ -61,6 +61,7 @@ import termsAndCondition from './task_1975308.png'
 import cancelation_icon from './paper_14045558.png'
 import payment_policy from './payment-protection_10058152.png'
 import dropdown_icon from './dropdown_icon.png'
+import menu_icon from './menu_icon.png'
 
 export const image = {
     cotton_Picker,
@@ -116,7 +117,8 @@ export const image = {
     termsAndCondition,
     payment_policy,
     cancelation_icon,
-    dropdown_icon
+    dropdown_icon,
+    menu_icon
 }
 
 export const Machines = [
