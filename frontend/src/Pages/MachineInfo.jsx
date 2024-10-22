@@ -261,7 +261,7 @@ const MachineInfo = () => {
               <div className="flex gap-3" >
 
                 <input onChange={onChangeHandler} required className="border-2 text-gray-600 rounded w-full px-3.5 py-1.5 border-gray-300" type="number" name="phone" placeholder="Phone" />
-                <input onChange={handleDateChange} required value={bookedDate ? bookedDate.toISOString().slice(0, 10) : ''} className="border-2 text-gray-600 rounded w-full px-3.5 py-1.5 border-gray-300" type="date" name="dateOfDelivery" />
+                <input onChange={handleDateChange} required value={bookedDate ? bookedDate.toISOString().slice(0, 10) : ''} className="border-2 text-gray-600 rounded w-full px-3.5 py-1.5 border-gray-300" type="date" name="dateOfDelivery" placeholder="Dooking date" />
 
               </div>
             </div>
