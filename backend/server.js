@@ -30,7 +30,7 @@ app.use('/api/machine', machineRouter)
 app.use('/api/provider', providerRouter)
 app.use('/api/order', orderRoute)
 
-app.post('/', (req, res)=>{
+app.get('/', (req, res)=>{
     const { trying } = req.body;
     console.log(trying);
     
