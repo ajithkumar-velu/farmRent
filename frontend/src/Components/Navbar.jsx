@@ -112,6 +112,7 @@ const Navbar = () => {
                         <p>Back </p>
                     </div>
 
+                    <a href="https://farm-rent-admin.vercel.app/" onClick={() => setVisible(false)} className='py-2 pl-6 border' to='/' >ADMIN</a>
                     <NavLink onClick={() => setVisible(false)} className='py-2 pl-6 border' to='/' >HOME</NavLink>
                     <NavLink onClick={() => setVisible(false)} className='py-2 pl-6 border' to='/machines' >MACHINES</NavLink>
                     <NavLink onClick={() => setVisible(false)} className='py-2 pl-6 border' to='/orders' >ORDERS</NavLink>
