@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active hr{
+    @apply block;
+}
+::-webkit-scrollbar{
+    @apply hidden
+}
+
+*{
+    box-sizing: border-box;
+}
+::-webkit-inner-spin-button{
+    appearance: none;
+}
+input, select, textarea {
+    border: 1px solid #c2c2c2;
+    outline-color: #4caf50;
+    border-radius: 4px;
+}
