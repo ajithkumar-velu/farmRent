@@ -288,7 +288,7 @@ const MachineInfo = () => {
                 </div>
                 <div className='flex items-center gap-5 border px-7 py-1.5' >
                     <p onClick={() => setMethod("stripe")} className={`w-4 h-4 border cursor-pointer rounded-full ${method === "stripe" ? "bg-primary" : ""}`} ></p>
-                    <p><img className='w-[50px]' src={image.stripe_icon,} alt="" /></p>
+                    <p><img className='w-[50px]' src={image.stripe_icon} alt="" /></p>
                 </div>
             </div>
               </div>
