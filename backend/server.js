@@ -31,7 +31,7 @@ app.use('/api/provider', providerRouter)
 app.use('/api/order', orderRoute)
 
 app.get('/', (req, res)=>{
-
+    console.log("hi")
     
     res.send("API is working")
 })
