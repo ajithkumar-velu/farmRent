@@ -206,7 +206,7 @@ const MachineInfo = () => {
               <p className="text-gray-600 font-semibold grid grid-cols-[1fr_0.3fr_4fr] sm:text-[17px]" >Rent Cost<span>:</span><span className="text-gray-400  font-semibold sm:text-[17px]" >₹{MachineInfo.rent} / Day</span></p>
               <p className="text-gray-600 font-semibold grid grid-cols-[1fr_0.3fr_4fr] sm:text-[17px]">Spec<span>:</span><span className=" text-gray-400 font-semibold md:w-2/3 sm:text-[17px]" >{MachineInfo.description}</span></p>
               <p className="text-gray-600 font-semibold grid grid-cols-[1fr_0.3fr_4fr] sm:text-[17px]" >License <span>:</span><span className="text-gray-400  font-semibold sm:text-[17px]" >{MachineInfo.license}</span></p>
-              <p className="text-gray-600 font-semibold grid grid-cols-[1fr_0.3fr_4fr] sm:text-[17px]" >Phone <span>:</span><span className="text-gray-400  font-semibold sm:text-[17px]" ></span></p>
+              <p className="text-gray-600 font-semibold grid grid-cols-[1fr_0.3fr_4fr] sm:text-[17px]" >Phone <span>:</span><span className="text-gray-400  font-semibold sm:text-[17px]" >{MachineInfo.phone}</span></p>
             </div>
           </div>
         </div>
