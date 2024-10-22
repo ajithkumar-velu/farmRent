@@ -4,7 +4,7 @@ import { AppContext } from "../Context/AppContext"
 const Header = () => {
   const { navigate, token1 } = useContext(AppContext)
   return (
-    <div className="bg-hero-pattern1 items-center md:pl-0 pl-8 w-full h-[80vh] bg-no-repeat flex flex-col justify-center gap-4 bg-left sm:bg-center bg-cover rounded-2xl mt-[120px]">
+    <div id="hero" className="items-center md:pl-0 pl-8 w-full h-[80vh] bg-no-repeat flex flex-col justify-center gap-4 bg-left sm:bg-center bg-cover rounded-2xl mt-[120px]">
         <p className="text-5xl md:text-7xl text-white font-bold w-4/5 text-center" ><span className="text-green-400" >Frame Your World</span> with Ease </p>
         <p className="text-3xl md:text-4xl mb-8 text-white font-bold w-4/5 text-center" >Rent, Don&apos;t Own: Framing <span className="text-green-400" >Equipment Made Simple.</span></p>
         {
